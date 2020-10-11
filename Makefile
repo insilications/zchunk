@@ -1,5 +1,5 @@
 PKG_NAME := zchunk
-URL = https://github.com/fedora-modularity/libmodulemd/archive/libmodulemd-2.9.4.tar.gz
+URL = https://github.com/zchunk/zchunk.git
 ARCHIVES = 
 
 include ../common/Makefile.common

@@ -1,1 +1,1 @@
--Ddefault_library=both -Dwith-zstd=true -Dwith-openssl=true
+-Ddefault_library=both -Dwith-zstd=enabled -Dwith-openssl=enabled
