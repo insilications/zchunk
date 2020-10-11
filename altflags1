@@ -23,4 +23,4 @@ export MAKEFLAGS=%{?_smp_mflags}
 # export CCACHE_DIRECT=1
 # export CCACHE_SLOPPINESS=pch_defines,locale,time_macros
 # export CCACHE_DISABLE=1
-#  -Wl,--as-needed -Wl,--start-group -Wl,--whole-archive /usr/lib64/libzstd.a /usr/lib64/libcrypto.a /usr/lib64/libssl.a -lpthread -pthread -ldl -lm -lmvec -Wl,--no-whole-archive -Wl,--end-group
+# -Wl,--as-needed -Wl,--start-group -Wl,--whole-archive /usr/lib64/libzstd.a /usr/lib64/libcrypto.a /usr/lib64/libssl.a -lpthread -pthread -ldl -lm -lmvec -Wl,--no-whole-archive -lc -Wl,--end-group
